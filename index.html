@@ -50,7 +50,7 @@
     <header>
 
     </header>
-    <main>
+    <main class="bg-slate-300">
         <!-- ticket booking section -->
          <section class="bg-white px-8 py-5 my-5 w-11/12 mx-auto rounded-xl shadow-sm grid grid-cols-3 gap-5">
             <!-- seat section -->
@@ -205,7 +205,71 @@
 
             </div>
             <!--  pasanger input section  -->
-            <div class="bg-red-400"> input</div>
+            <div class=""> 
+                
+                <div>
+                    <h2 class="font-semibold text-2xl text-secound font-ralway mb-5">Select Your Seat</h2>
+                    <div class="border-t-2 border-dashed border-body"></div>
+                </div>
+                <!-- part-1 -->
+                <section  class="font-inter mt-7">
+                    <div class="bg-mobilemanu p-5 rounded-xl">
+                        <h3 class="flex justify-between font-medium text-black mb-3">
+                            <p class="flex">
+                                <span>Seat</span>
+                                <span class="flex justify-center items-center bg-primary text-white h-4 w-4 p-2 rounded-full">0</span>
+                            </p>
+                            <p>Class</p>
+                            <p>Price</p>
+                        </h3>
+                        <div class="border-t-2 my-4 border-dashed border-body"></div>
+                        <ul class="space-y-4 ">
+                            <h3 class="text-2xl text-red-400 text-center">No Seat Bookd</h3>
+                        </ul>
+                        <div class="border-t-2 my-4 border-dashed border-body"></div>
+                        <div class="font-semibold text-lg flex justify-between">
+                            <p>Total Price</p>
+                            <p>
+                                <span>BDT:</span>
+                                <span>***</span>
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-5 font-semibold justify-between my-6">
+                            <input type="text" placeholder="Have any copupon?" class="input w-full input-none border-none" />
+                            <button class="btn btn-md bg-primary font-semibold text-white">Apply</button>
+                        </div>
+                        <div class="font-semibold text-lg flex justify-between">
+                            <p>Grand Total</p>
+                            <p>
+                                <span>BDT:</span>
+                                <span>***</span>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- part 2 -->
+                 <section class="font-inter my-6 space-y-4">
+                    <div class="flex flex-col space-y-4">
+                        <label class="text-xl font-semibold" for="text">Passenger Name*</label>
+                    <input type="text" placeholder="Type here" class="input input-bordered w-full py-6 " />
+                    </div>
+                    <div class="flex flex-col space-y-4">
+                        <label class="text-xl font-semibold" for="text">Phone Number*</label>
+                    <input type="number" placeholder="Enter your phone number" class="input input-bordered w-full py-6 " />
+                    </div>
+                    <div class="flex flex-col space-y-4">
+                        <label class="text-xl font-semibold" for="text">Email ID</label>
+                    <input type="email" placeholder="Enter your email id" class="input input-bordered w-full py-6 " />
+                    </div>
+                    <button class="btn bg-primary w-full text-white font-bold text-xl text-center rounded-xl">Next</button>
+                    <div class="flex justify-around">
+                       <a class="underline" href="">Terms and Conditions</a>
+                       <a class="underline" href="">Cancellation Policy</a>
+                    </div>
+
+                 </section>
+                               
+            </div>
            
 
          </section>
