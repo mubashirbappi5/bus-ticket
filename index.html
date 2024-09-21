@@ -54,7 +54,101 @@
     </script>
   </head>
   <body>
-    <header></header>
+    <header class=" mb-32">
+        <nav class="w-11/12 mx-auto ">
+            <div class="navbar ">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li> 
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-2xl font-bold">E-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg font-medium">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-[#1DD1001A] border-primary text-primary font-semibold text-lg">Bus<img src="images/bus-icon.png" alt=""></a>
+                </div>
+              </div>
+        </nav>
+        <!-- hero section -->
+   <section class="w-11/12 mx-auto rounded-2xl mb-5">
+    <div
+    class="hero min-h-screen rounded-2xl relative"
+    style="background-image: url(images/banner.png);">
+    <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
+    <div class="hero-content text-neutral-content text-center">
+      <div class="">
+        <h1 class="mb-5 text-6xl font-bold">End-to-End Travel with <br> <span class="text-primary">P Paribahan</span></h1>
+        <p class="mb-5">
+            Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .
+        </p>
+        <button class="btn  bg-primary border-none font-bold text-xl">Buy Tickets</button>
+      </div>
+    </div>
+  </div>
+  <!-- card feature -->
+ <div class="absolute -bottom-32 left-52 space-x-10 ">
+    <div class="stats shadow border-b-2 border-primary">
+        <div class="stat flex ">
+            <img src="images/people.png" alt="">
+          
+          <div>
+            <div class="stat-value">500K+</div>
+          <div class="stat-desc">Registered users</div>
+          </div>
+        </div>
+      </div>
+      <div class="stats shadow border-b-2 border-primary">
+        <div class="stat flex ">
+            <img src="images/ticket-cupon.png" alt="">
+          
+          <div>
+            <div class="stat-value">1.7 lacks</div>
+          <div class="stat-desc">Tickets sold</div>
+          </div>
+        </div>
+      </div>
+      <div class="stats shadow border-b-2 border-primary">
+        <div class="stat flex ">
+            <img src="images/stoppage.png" alt="">
+          
+          <div>
+            <div class="stat-value">80K+</div>
+          <div class="stat-desc">Rental partners</div>
+          </div>
+        </div>
+      </div>
+ </div>
+   </section>
+       
+    </header>
     <main class="bg-slate-300">
       <!-- ticket booking section -->
       <section
