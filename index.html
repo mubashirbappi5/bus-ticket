@@ -508,18 +508,18 @@
                 <p>Total Price</p>
                 <p>
                   <span>BDT:</span>
-                  <span>***</span>
+                  <span id="total-price">***</span>
                 </p>
               </div>
               <div
                 class="flex items-center gap-5 font-semibold justify-between my-6"
               >
-                <input
-                  type="text"
+                <input id="coupon-input"
+                  type="text" disabled
                   placeholder="Have any copupon?"
                   class="input w-full input-none border-none"
                 />
-                <button class="btn btn-md bg-primary font-semibold text-white">
+                <button id="coupon-btn" disabled class="btn btn-md bg-primary font-semibold text-white">
                   Apply
                 </button>
               </div>
@@ -527,7 +527,7 @@
                 <p>Grand Total</p>
                 <p>
                   <span>BDT:</span>
-                  <span>***</span>
+                  <span id="coupon-total">***</span>
                 </p>
               </div>
             </div>
