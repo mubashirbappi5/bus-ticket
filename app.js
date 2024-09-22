@@ -54,14 +54,29 @@ document.getElementById('coupon-btn').addEventListener("click",function(e){
         const total = totalPrice /2
        
         const discountPrice = document.getElementById('coupon-total')
-        discountPrice.innerText = total
+        discountPrice.innerText = total.toFixed(2)
+        const couponDisplay = document.getElementById('coupon-display')
+        couponDisplay.innerHTML = `<p>Discount</p>
+                <p>
+                  <span>BDT:</span>
+                  <span>-${total}</span>
+                </p>`
 
     }
     else if(couponApply ==='COUPLE2'){
         const total = totalPrice - (totalPrice*0.30)
         console.log(total)
         const discountPrice = document.getElementById('coupon-total')
-        discountPrice.innerText = total
+        discountPrice.innerText = total.toFixed(2)
+        const couponDisplay = document.getElementById('coupon-display')
+        couponDisplay.innerHTML = `<p>Discount</p>
+                <p>
+                  <span>BDT:</span>
+                  <span>-${total*0.30}</span>
+                </p>`
+    }
+    else{
+        alert("coupon code is not valid")
     }
 
 })
